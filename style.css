@@ -13,9 +13,10 @@ html {
 }
 
 #personal-logo {
-    width: 50px;
-    height: 50px;
-    filter: invert(1);
+    width: 60px;
+    height: 80px;
+    filter: none;
+    margin-bottom: 20px;
 }
 
 li {
@@ -104,7 +105,7 @@ input:focus, textarea:focus {
 }
 
 .color--secondary {
-    color: #f06449;
+    color: #b00505;
 }
 
 .link__hover-effect {
@@ -163,7 +164,7 @@ transition: all 400ms;
 }
 
 .dark-theme #personal-logo {
-    filter: none;
+    filter: invert(1);
 }
 
 .dark-theme .scroll__icon {
@@ -216,7 +217,7 @@ transition: all 400ms;
 .fa-linkedin,
 .fa-square-github,
 .fa-file-pdf {
-    background-color: #f06449;
+    background-color: #b00505;
     color: white;
     padding: 10px;
     width: 32px;
@@ -418,8 +419,8 @@ nav {
 }
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: #b00505;
+    border: 2px solid #b00505;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -515,8 +516,9 @@ nav {
 .project__wrapper {
     position: relative;
     border-radius: 20px;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0, 45);
+    box-shadow: 0 20px 80px 0 #a0a19fb7;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .project__wrapper:hover .projects__description {
@@ -593,6 +595,7 @@ footer {
 
 .footer__logo--img {
     width: 70px;
+    filter: invert(1);
 }
 
 .footer__social--list {
@@ -616,50 +619,13 @@ footer {
     position: fixed;
 }
 
-.shape--0 {
-    top: 15vh;
-    left: 5vw;
-}
-
 .shape--1 {
-    top: 15vh;
-    left: 50vw;
-}
-
-.shape--2 {
-    top: 15vh;
-    left: 80vw;
-}
-
-.shape--3 {
-    top: 50vh;
-    left: 5vw;
-}
-
-.shape--4 {
-    top: 50vh;
-    left: 50vw;
-}
-
-.shape--5 {
-    top: 50vh;
-    left: 5vw;
-}
-
-.shape--6 {
-    top: 80vh;
-    left: 5vw;
-}
-
-.shape--7 {
     top: 80vh;
     left: 50vw;
+    width: 120px;
+    height: 120px;
 }
 
-.shape--8 {
-    top: 80vh;
-    left: 80vw;
-}
 
 /* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
