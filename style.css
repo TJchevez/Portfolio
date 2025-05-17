@@ -650,7 +650,7 @@ footer {
         width: 100%;
     }
 
-    .shape {
+    .shape--1 {
         display: none;
     }
 
@@ -685,5 +685,8 @@ footer {
 
     .modal__half {
         padding: 40px;
+    }
+    .shape--1 {
+        display: none;
     }
 }
