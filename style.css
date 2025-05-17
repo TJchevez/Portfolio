@@ -650,6 +650,10 @@ footer {
         width: 100%;
     }
 
+    .shape {
+        display: none;
+    }
+
 }
 
 /* Small phones */
