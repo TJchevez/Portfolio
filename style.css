@@ -99,7 +99,7 @@ input:focus, textarea:focus {
 
 .title {
     font-size: 120px;
-    margin-bottom: 12px;
+    margin: 12px 0;
     text-align: left;
     line-height: 1;
 }
@@ -654,6 +654,13 @@ footer {
         display: none;
     }
 
+    #personal-logo {
+    width: 40px;
+    height: 60px;
+    filter: none;
+    margin-bottom: 20px;
+}
+
 }
 
 /* Small phones */
@@ -689,4 +696,11 @@ footer {
     .shape--1 {
         display: none;
     }
+
+    #personal-logo {
+    width: 40px;
+    height: 60px;
+    filter: none;
+    margin-bottom: 20px;
+}
 }
