@@ -631,6 +631,7 @@ footer {
 @media (max-width: 768px) {
     .title {
         font-size: 80px;
+        margin: 12px 0;
     }
 
     .header__para {
@@ -667,6 +668,7 @@ footer {
 @media (max-width: 480px) {
     .title {
         font-size: 52px;
+        margin: 12px 0;
     }
     .header__para {
         font-size: 18px;
