@@ -638,6 +638,11 @@ footer {
     padding-top: 3rem; 
     margin-top: 2rem;  
   }
+
+  .section__title {
+    margin-top: 30px;
+  }
+
     .title {
         font-size: 80px;
         margin: 12px 0;
@@ -683,6 +688,10 @@ footer {
   .header {
     padding-top: 3rem; 
     margin-top: 2rem;  
+  }
+
+   .scroll__icon {
+    display: none;
   }
     .title {
         font-size: 52px;
